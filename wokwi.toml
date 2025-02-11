@@ -1,0 +1,11 @@
+[wokwi]
+version = 1
+firmware = 'build/PWM.uf2'
+elf = 'build/PWM.elf'
+
+[[gpio]]
+pin = 22
+function = "PWM"
+
+[console]
+baudrate = 115200
